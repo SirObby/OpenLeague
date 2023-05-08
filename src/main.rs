@@ -26,12 +26,16 @@ pub fn main() {
         //i = (i + 1) % 255;
         //canvas.set_draw_color(Color::RGB(i, 64, 255 - i));
         //canvas.clear();
+        //The Above commented code changes the bg color, It will constantly change.
         for event in event_pump.poll_iter() {
             match event {
                 Event::Quit {..} |
                 Event::KeyDown { keycode: Some(Keycode::Escape), .. } => {
                     break 'running
-                },
+                }, //This event breaks the loop when you press the escape key.
+                Event::KeyDown { keycode: Some(Keycode::Up), .. } => {
+                    println!("Up");
+                }, //This event prints Up when you press the up arrow key. 
                 _ => {}
             }
         }
