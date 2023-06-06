@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/openleague.dir/src/main.cpp.o CMakeFiles/openleague.dir/src/rendering.cpp.o -o openleague  /usr/lib64/libSDL2.so -lGL -lGLU 
