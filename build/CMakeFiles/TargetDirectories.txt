@@ -1,3 +1,0 @@
-/home/maverick/Projects/OpenLeague/build/CMakeFiles/openleague.dir
-/home/maverick/Projects/OpenLeague/build/CMakeFiles/edit_cache.dir
-/home/maverick/Projects/OpenLeague/build/CMakeFiles/rebuild_cache.dir
