@@ -3,10 +3,7 @@
 
 CMakeFiles/openleague.dir/src/main.cpp.o: /home/maverick/Projects/OpenLeague/src/main.cpp \
   /usr/include/stdc-predef.h \
-  /home/maverick/Projects/OpenLeague/src/rendering.h
-
-CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeague/src/rendering.cpp \
-  /usr/include/stdc-predef.h \
+  /home/maverick/Projects/OpenLeague/src/rendering.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_main.h \
   /usr/include/SDL2/SDL_stdinc.h \
@@ -271,23 +268,336 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
   /usr/include/SDL2/SDL_version.h \
   /usr/include/SDL2/SDL_locale.h \
   /usr/include/SDL2/SDL_misc.h \
+  /usr/include/GL/glu.h \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h \
+  /usr/include/KHR/khrplatform.h
+
+CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeague/src/rendering.cpp \
+  /usr/include/stdc-predef.h \
   /usr/include/GL/gl.h \
   /usr/include/GL/glext.h \
   /usr/include/KHR/khrplatform.h \
-  /usr/include/GL/glu.h \
-  /usr/include/GL/glut.h \
-  /usr/include/GL/freeglut_std.h
+  /usr/lib64/gcc/x86_64-suse-linux/13/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/13/fstream \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/c++config.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/os_defines.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/cpu_defines.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib64/gcc/x86_64-suse-linux/13/include/stddef.h \
+  /usr/lib64/gcc/x86_64-suse-linux/13/include/stdarg.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/c++locale.h \
+  /usr/include/c++/13/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/13/cctype \
+  /usr/include/ctype.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/gthr.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/atomic_word.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/c++allocator.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/c++/13/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/x86_64-suse-linux/bits/error_constants.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/ctype_base.h \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/ctype_inline.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/codecvt.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/basic_file.h \
+  /usr/include/c++/13/x86_64-suse-linux/bits/c++io.h \
+  /usr/include/c++/13/bits/fstream.tcc \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/sstream \
+  /usr/include/c++/13/bits/sstream.tcc \
+  /usr/include/c++/13/vector \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/vector.tcc
 
 
-/usr/include/GL/freeglut_std.h:
+/usr/include/c++/13/bits/stl_vector.h:
 
-/usr/include/GL/glut.h:
+/usr/include/c++/13/vector:
 
-/usr/include/GL/glu.h:
+/usr/include/c++/13/bits/sstream.tcc:
+
+/usr/include/c++/13/iostream:
+
+/usr/include/c++/13/bits/fstream.tcc:
+
+/usr/include/c++/13/bits/codecvt.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/c++/13/ostream:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/ctype_base.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/error_constants.h:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/c++/13/cstdio:
+
+/usr/include/c++/13/ext/string_conversions.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/basic_file.h:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/locale_classes.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/atomic_word.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/c++/13/ext/atomicity.h:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/locale.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/new:
+
+/usr/include/bits/timex.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/bits/memoryfwd.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/ios:
+
+/usr/include/c++/13/istream:
 
 /usr/include/KHR/khrplatform.h:
 
 /usr/include/GL/glext.h:
+
+/usr/include/GL/glu.h:
 
 /usr/include/SDL2/SDL_locale.h:
 
@@ -299,15 +609,17 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/SDL2/SDL_power.h:
 
-/usr/include/SDL2/SDL_log.h:
-
 /usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/initializer_list:
 
 /usr/include/c++/13/tr1/bessel_function.tcc:
 
 /usr/include/bits/floatn-common.h:
 
 /usr/include/c++/13/limits:
+
+/usr/include/linux/errno.h:
 
 /usr/include/c++/13/debug/debug.h:
 
@@ -317,19 +629,29 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/c++/13/bits/stl_pair.h:
 
-/usr/lib64/gcc/x86_64-suse-linux/13/include/avx512vlbwintrin.h:
+/home/maverick/Projects/OpenLeague/src/rendering.cpp:
 
-/usr/include/bits/types/__fpos64_t.h:
+/usr/include/math.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/avx512vlbwintrin.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
 
 /usr/include/c++/13/bits/stl_iterator.h:
 
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/c++allocator.h:
+
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/amxcomplexintrin.h:
 
+/usr/include/c++/13/typeinfo:
+
 /usr/include/bits/fp-logb.h:
+
+/usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
@@ -345,13 +667,19 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/xsaveoptintrin.h:
 
+/usr/include/c++/13/cerrno:
+
 /usr/include/bits/waitflags.h:
 
 /usr/include/SDL2/SDL_error.h:
 
 /usr/include/inttypes.h:
 
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
 /usr/include/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -377,6 +705,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/vpclmulqdqintrin.h:
 
+/usr/include/pthread.h:
+
 /usr/include/SDL2/SDL_hints.h:
 
 /usr/include/bits/timesize.h:
@@ -387,15 +717,25 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/c++/13/type_traits:
 
+/usr/include/c++/13/bits/range_access.h:
+
 /usr/include/c++/13/tr1/hypergeometric.tcc:
 
 /usr/include/c++/13/x86_64-suse-linux/bits/cpu_defines.h:
 
 /usr/include/bits/types/clock_t.h:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/bits/mathcalls.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/SDL2/SDL_touch.h:
 
@@ -421,40 +761,6 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/bits/struct_mutex.h:
 
-/usr/include/features-time64.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/cetintrin.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/mwaitintrin.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/pkuintrin.h:
-
-/usr/include/c++/13/cstdlib:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/shaintrin.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/emmintrin.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/SDL2/SDL_assert.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/popcntintrin.h:
-
-/home/maverick/Projects/OpenLeague/src/main.cpp:
-
-/usr/include/SDL2/SDL_loadso.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/lzcntintrin.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/SDL2/close_code.h:
-
 /usr/include/string.h:
 
 /usr/include/bits/mathcalls-helper-functions.h:
@@ -464,42 +770,6 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 /usr/include/bits/types/__locale_t.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx2intrin.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/include/SDL2/SDL_metal.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/avx512vbmivlintrin.h:
-
-/usr/include/math.h:
-
-/home/maverick/Projects/OpenLeague/src/rendering.cpp:
-
-/usr/include/SDL2/SDL_stdinc.h:
-
-/usr/include/c++/13/bits/move.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/avx512fp16vlintrin.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/13/tr1/riemann_zeta.tcc:
-
-/usr/include/SDL2/SDL_keycode.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/SDL2/SDL_cpuinfo.h:
-
-/usr/lib64/gcc/x86_64-suse-linux/13/include/stdint.h:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/bits/libc-header-start.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
 
@@ -517,6 +787,64 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/bits/types/__sigset_t.h:
 
+/usr/include/SDL2/SDL_stdinc.h:
+
+/usr/include/c++/13/bits/move.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/SDL2/SDL_metal.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/avx512vbmivlintrin.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/avx512fp16vlintrin.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/c++locale.h:
+
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
+
+/usr/include/SDL2/SDL_keycode.h:
+
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/SDL2/SDL_cpuinfo.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/stdint.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/c++/13/string_view:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/lzcntintrin.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/SDL2/close_code.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/SDL2/SDL_assert.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/popcntintrin.h:
+
+/home/maverick/Projects/OpenLeague/src/main.cpp:
+
+/usr/include/SDL2/SDL_loadso.h:
+
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/13/bits/ptr_traits.h:
@@ -524,6 +852,28 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 /usr/include/sys/types.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/clwbintrin.h:
+
+/usr/include/features-time64.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/cetintrin.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/mwaitintrin.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/pkuintrin.h:
+
+/usr/include/c++/13/cstdlib:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/shaintrin.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/13/include/emmintrin.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/c++io.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -541,6 +891,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx5124vnniwintrin.h:
 
+/usr/include/c++/13/cwctype:
+
 /usr/include/SDL2/SDL_version.h:
 
 /usr/include/bits/uintn-identity.h:
@@ -551,7 +903,13 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/lwpintrin.h:
 
+/usr/include/SDL2/SDL_log.h:
+
+/usr/include/c++/13/cstddef:
+
 /usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
 
 /usr/include/c++/13/bits/specfun.h:
 
@@ -565,9 +923,9 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/SDL2/SDL_gamecontroller.h:
 
-/usr/include/c++/13/tr1/poly_hermite.tcc:
-
 /usr/include/bits/struct_rwlock.h:
+
+/usr/include/c++/13/stdexcept:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avxvnniint8intrin.h:
 
@@ -591,17 +949,27 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/mwaitxintrin.h:
 
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
 /usr/include/bits/fp-fast.h:
 
 /usr/include/c++/13/cmath:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/gthr-default.h:
 
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/stdarg.h:
 
+/usr/include/c++/13/cwchar:
+
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sched.h:
 
 /usr/include/features.h:
 
@@ -627,6 +995,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/xmmintrin.h:
 
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
 /usr/include/bits/wchar.h:
 
 /usr/include/bits/waitstatus.h:
@@ -637,15 +1007,23 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/SDL2/SDL_audio.h:
 
+/usr/include/c++/13/bits/functional_hash.h:
+
 /usr/include/bits/types/time_t.h:
 
 /usr/include/SDL2/SDL_endian.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/SDL2/SDL_thread.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/uintrintrin.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/pmmintrin.h:
+
+/usr/include/c++/13/bits/vector.tcc:
 
 /usr/include/SDL2/SDL_rwops.h:
 
@@ -677,6 +1055,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/fxsrintrin.h:
 
+/usr/include/c++/13/exception:
+
 /usr/lib64/gcc/x86_64-suse-linux/13/include/x86gprintrin.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/pconfigintrin.h:
@@ -691,6 +1071,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/serializeintrin.h:
 
+/usr/include/c++/13/sstream:
+
 /usr/lib64/gcc/x86_64-suse-linux/13/include/sgxintrin.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/immintrin.h:
@@ -702,6 +1084,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 /usr/lib64/gcc/x86_64-suse-linux/13/include/f16cintrin.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/xsaveintrin.h:
+
+/usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/bits/libm-simd-decl-stubs.h:
 
@@ -715,9 +1099,19 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/smmintrin.h:
 
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/bits/types/struct_tm.h:
+
 /usr/lib64/gcc/x86_64-suse-linux/13/include/wmmintrin.h:
 
+/usr/include/c++/13/backward/binders.h:
+
+/usr/include/sys/single_threaded.h:
+
 /usr/lib64/gcc/x86_64-suse-linux/13/include/keylockerintrin.h:
+
+/usr/include/errno.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avxintrin.h:
 
@@ -729,6 +1123,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/prfchwintrin.h:
 
+/usr/include/c++/13/string:
+
 /usr/lib64/gcc/x86_64-suse-linux/13/include/stddef.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512erintrin.h:
@@ -738,6 +1134,10 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512pfintrin.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512cdintrin.h:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/bits/errno.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512ifmavlintrin.h:
 
@@ -749,9 +1149,13 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512vbmi2intrin.h:
 
+/usr/include/c++/13/clocale:
+
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512vbmi2vlintrin.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512vnniintrin.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/ctype_inline.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/clflushoptintrin.h:
 
@@ -762,6 +1166,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 /usr/include/SDL2/SDL_blendmode.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512bitalgintrin.h:
+
+/usr/include/c++/13/cctype:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avx512fp16intrin.h:
 
@@ -793,6 +1199,10 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/SDL2/SDL_rect.h:
 
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
 /usr/include/SDL2/SDL_pixels.h:
 
 /usr/include/SDL2/SDL_surface.h:
@@ -801,7 +1211,11 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 
 /usr/include/SDL2/SDL_scancode.h:
 
+/usr/include/c++/13/fstream:
+
 /usr/include/SDL2/SDL_mouse.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/amxtileintrin.h:
 
@@ -812,6 +1226,8 @@ CMakeFiles/openleague.dir/src/rendering.cpp.o: /home/maverick/Projects/OpenLeagu
 /usr/include/SDL2/SDL_shape.h:
 
 /usr/include/SDL2/SDL_quit.h:
+
+/usr/include/c++/13/x86_64-suse-linux/bits/gthr.h:
 
 /usr/lib64/gcc/x86_64-suse-linux/13/include/avxneconvertintrin.h:
 

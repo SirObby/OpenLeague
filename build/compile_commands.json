@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/maverick/Projects/OpenLeague/build",
+  "command": "/usr/bin/g++ -isystem /usr/include/SDL2 -g -o CMakeFiles/openleague.dir/src/main.cpp.o -c /home/maverick/Projects/OpenLeague/src/main.cpp",
+  "file": "/home/maverick/Projects/OpenLeague/src/main.cpp",
+  "output": "CMakeFiles/openleague.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/maverick/Projects/OpenLeague/build",
+  "command": "/usr/bin/g++ -isystem /usr/include/SDL2 -g -o CMakeFiles/openleague.dir/src/rendering.cpp.o -c /home/maverick/Projects/OpenLeague/src/rendering.cpp",
+  "file": "/home/maverick/Projects/OpenLeague/src/rendering.cpp",
+  "output": "CMakeFiles/openleague.dir/src/rendering.cpp.o"
+}
+]
