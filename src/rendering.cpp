@@ -53,6 +53,8 @@ void render(const std::string& objFilename) {
 }
 
 void renderCube() {
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    
     glBegin(GL_QUADS);
     // Front face
     glColor3f(1.0f, 1.0f, 1.0f); // Set the color to white

@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
     while (running) {
         SDL_Event event;
         while (SDL_PollEvent(&event)) {
-            if (event.type == SDL_QUIT) {
+            if (event.key.keysym.sym == SDLK_ESCAPE) {
                 running = false;
             }
         }
